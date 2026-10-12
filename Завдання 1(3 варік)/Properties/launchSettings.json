@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Завдання 1(3 варік)": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
