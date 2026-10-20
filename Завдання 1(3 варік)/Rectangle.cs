@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -37,6 +37,8 @@ namespace Завдання_1_3_варік_
             Console.WriteLine("Enter the sides of the ricrangle");
             a = double.Parse(Console.ReadLine());
             b = double.Parse(Console.ReadLine());
+            if (a <= 0 || b <= 0 )
+                throw new ArgumentException("Both sides must be greater than zero");
         }
         public void Output()
         {
@@ -64,7 +66,7 @@ namespace Завдання_1_3_варік_
         }
         public double TheArea()
         {
-                return (this.a * this.a);
+                return (this.a * this.b);
         }
     }
 }
